@@ -19,11 +19,14 @@
     overflow: hidden;
     z-index: 1001;
     max-height: 90vh;
+    display: flex;
+    justify-content: center;
+        align-items: center;
 }
 
 
 .modal img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
